@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
           builder: (BuildContext context) {
             return const WebView(
               initialUrl:
-                  'http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?command=show',
+                  'http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?command=show&page=2',
             );
           },
         ),
