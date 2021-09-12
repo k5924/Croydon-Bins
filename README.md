@@ -23,11 +23,11 @@ What I can do currently:
 - figured out how to pass postcode to webpage
   - edit 
     ```dart
-    http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?address=&command=searchAddress
+    http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?address=&command=searchAddress&page=2
     ``` 
     so that the url is structured like this 
     ```dart
-    http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?address=$postcode&command=searchAddress
+    http://maps.croydon.gov.uk/aya/pages/aya/accessible/set-home.jsp?address=$postcode&command=searchAddress&page=2
     ```
     where $postcode is the postcode that the user has entered. The postcode needs to be structured as XXX XXX or XXXX XXX.
 
