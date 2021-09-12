@@ -1,4 +1,4 @@
-# croydon_bins
+# Croydon Bins
 
 This is an app that will pull the bin collection dates from croydon councils website. I am accessing the council website via the accessible version as it lets me view the individual html containers on the website and updates the urls with the postcode. The interactive version uses JS so the containers containing the data I want to render arent accessible and the urls dont update to show the postcode as the selection of the postcode is replaced with an inbuilt iframe/pop up whereas in the accessible version it is routed to an actual page.
 
